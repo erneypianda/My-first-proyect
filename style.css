@@ -1,0 +1,70 @@
+* {
+    box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+
+}
+.app-global {
+        background-color: bisque;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin:  auto;
+        padding: 0 1px; 
+        width: 100%;
+        min-height:  100vh;
+}
+h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+.contenedor-heroes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    padding-top: 30px;
+    background-color: rgb(205, 171, 237);
+    border-radius: 12px;
+  
+
+}
+.contenedor-buscar {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius:8px ;
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(225, 139, 241);
+   
+}
+.contenedor-buscar input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    
+}
+.contenedor-buscar button {
+    width: 25%;
+    padding: 5px;
+}
+.contenedor-cards{
+    background-color: aquamarine;
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
