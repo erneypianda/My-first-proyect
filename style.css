@@ -17,6 +17,8 @@
 h1 {
     text-align: center;
     margin-top: 5px;
+    color: aliceblue;
+    
 }
 .contenedor-heroes {
     display: flex;
@@ -26,8 +28,13 @@ h1 {
     max-width: 1200px;
     gap: 20px;
     padding-top: 30px;
-    background-color: rgb(205, 171, 237);
+    background-color: rgb(180, 124, 231);
     border-radius: 12px;
+    background-image: url(imagenes/webp.dotaportada.webp);
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+
   
 
 }
@@ -60,6 +67,65 @@ h1 {
     text-align: center;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("imagenes/webp.dotacards.webp");
+    flex: 1;
+}
+.contenedor-cards div {
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+
+}.contenedor-cards img{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+.card-heroe{
+    
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contenedor-heroe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+/* Para la imagen */
+#imgHeroe {
+    width: 300px;
+    height: auto;
+}
+
+/* Para el botón volver */
+#btnVolver {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contenedorhoja2 {
+    background-color: bisque;
+}
+.contenedor-footer{
+    background-image: url("imagenes/webp.dotafooter.webp");
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    padding-top: 30px;
+    background-color: rgb(180, 124, 231);
+    border-radius: 12px;
     
 }
 
