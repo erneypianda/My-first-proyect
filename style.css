@@ -73,21 +73,33 @@ h1 {
     flex: 1;
 }
 .contenedor-cards div {
-    padding: 5px;
+    padding: 20px;
     text-align: center;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
+    color: rgb(249, 247, 247);
+    border-radius: 2px;
+    gap: 20px;
+
+
     
 
 }.contenedor-cards img{
     width: 200px;
     height: auto;
     display: block;
+    border-radius: 20px;
+    align-items: center;
+
+}
+.contenedor-cards:hover img {
+    transform: scale(1.1);
+  
+    
 }
 .card-heroe{
-    
+     background: rgba(118, 53, 45, 0.3);
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 2px;
+    width: 180px;
 }
 
 #contenedor-heroe {
@@ -98,12 +110,17 @@ h1 {
     max-width: 600px;
     margin: 0 auto;
     background-color: aqua;
+    border-radius: 15px;
 }
 
 /* Para la imagen */
 #imgHeroe {
     width: 300px;
     height: auto;
+    border-radius: 10px;
+}
+#imgHeroe:hover{
+    transform: scale(1.14);
 }
 
 /* Para el botón volver */
@@ -111,6 +128,32 @@ h1 {
     margin: 20px;
     padding: 10px 20px;
     cursor: pointer;
+}
+.btn-filtro{
+    padding: 8x 16px;
+   
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+    
+}
+.btn-filtro:hover{
+    background-color: #61707d;
+}
+.btn-filtro.activo{
+    background-color: #5171e1;
+    transform: scale(1,02);
+}
+.filtros-atributos{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0 ;
+   
+    
 }
 .contenedorhoja2 {
     background-color: bisque;
@@ -128,6 +171,22 @@ h1 {
     border-radius: 12px;
     
 }
+.stats-bloque{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
 
 
 
