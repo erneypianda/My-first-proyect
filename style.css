@@ -179,6 +179,31 @@ h1 {
     flex-direction: column;
     margin-top: 15px;
 }
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 15px;
+    background-color: #1c4d76;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #152552;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+.navbar a:hover{
+    background-color: #1d3371;
+}
+.navbar a.activo {
+    background-color: #0d1838;
+}
+
 
 
 
