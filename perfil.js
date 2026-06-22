@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const botonBuscarJugador = document.querySelector("#btnbuscarJugador");
 const inputSteamId = document.querySelector("#inputSteamId");
 const perfilJugador = document.querySelector("#perfilJugador");
@@ -42,3 +43,26 @@ botonBuscarJugador.addEventListener("click", () => {
         });
     });
 });
+=======
+const botonBuscarJugador = document.querySelector("#btnbuscarJugador");
+const inputSteamId = document.querySelector("#inputSteamId");
+const perfilJugador = document.querySelector("#perfilugador");
+
+botonBuscarJugador.addEventListener("click", () => {
+
+ const id = inputSteamId.value.trim();
+
+ if(id===""){
+    alert("Debe introducir un Id ");
+    return ;
+ }
+ fetch(`https://api.opendota.com/api/players/${id}`)
+ .then(response=>response.json())
+ .then(jugador =>{
+    console.log("jugador")
+ })
+ 
+ console.log("BuscandoJugador: " + id);
+
+});
+>>>>>>> 7110112ef4f08d931a0c3523afb8cb13412ea891

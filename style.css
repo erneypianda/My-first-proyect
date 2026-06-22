@@ -178,6 +178,7 @@ h1 {
     color: rgb(0, 0, 0);
     flex-direction: column;
     margin-top: 15px;
+<<<<<<< HEAD
 }
 .navbar{
     display: flex;
@@ -202,6 +203,8 @@ h1 {
 }
 .navbar a.activo {
     background-color: #0d1838;
+=======
+>>>>>>> 7110112ef4f08d931a0c3523afb8cb13412ea891
 }
 
 
@@ -211,3 +214,12 @@ h1 {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> 7110112ef4f08d931a0c3523afb8cb13412ea891
