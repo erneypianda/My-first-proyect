@@ -88,8 +88,6 @@ document.querySelectorAll(".btn-filtro").forEach(boton=>{
 
 
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -98,4 +96,5 @@ document.querySelectorAll(".btn-filtro").forEach(boton=>{
 
 
 
->>>>>>> 7110112ef4f08d931a0c3523afb8cb13412ea891
+
+
