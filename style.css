@@ -296,6 +296,10 @@ h1 {
 }
 .top-heroes-container {
     display: flex;
+<<<<<<< HEAD
+=======
+    flex-wrap: wrap;
+>>>>>>> 2865221d54eb4c43fde54ceb7bef70c2d69474b2
     justify-content: center;
     gap: 15px;
     width: 95%;
@@ -317,8 +321,11 @@ h1 {
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
+<<<<<<< HEAD
    
  
+=======
+>>>>>>> 2865221d54eb4c43fde54ceb7bef70c2d69474b2
     aspect-ratio: 1/1;
 }
 .mini-card-heroe:hover img{
@@ -360,6 +367,14 @@ h1 {
     font-weight: bold;
     min-width: 100px;
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 2865221d54eb4c43fde54ceb7bef70c2d69474b2
 
 
 

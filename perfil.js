@@ -112,3 +112,9 @@ botonBuscarJugador.addEventListener("click", () => {
 });
 
 
+
+
+
+
+
+
