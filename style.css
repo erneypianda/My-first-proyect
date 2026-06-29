@@ -296,10 +296,9 @@ h1 {
 }
 .top-heroes-container {
     display: flex;
-<<<<<<< HEAD
-=======
+
     flex-wrap: wrap;
->>>>>>> 2865221d54eb4c43fde54ceb7bef70c2d69474b2
+
     justify-content: center;
     gap: 15px;
     width: 95%;
@@ -321,11 +320,6 @@ h1 {
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
-<<<<<<< HEAD
-   
- 
-=======
->>>>>>> 2865221d54eb4c43fde54ceb7bef70c2d69474b2
     aspect-ratio: 1/1;
 }
 .mini-card-heroe:hover img{
@@ -367,14 +361,74 @@ h1 {
     font-weight: bold;
     min-width: 100px;
 }
-<<<<<<< HEAD
-=======
+.contenedor-comparar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.contenedor-comparar input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #e94560;
+    background: #16213e;
+    color: white;
+}
+
+.comparacion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 95%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.jugador-comparar {
+    background: rgba(30, 30, 36, 0.95);
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    flex: 1;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.jugador-comparar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #e94560;
+    object-fit: cover;
+}
+
+.jugador-comparar h3 {
+    margin: 10px 0;
+    color: #f1c40f;
+}
+
+.jugador-comparar p {
+    background: rgba(0,0,0,0.3);
+    padding: 8px;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+
+.vs-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #e94560;
+}
 
 
 
 
 
->>>>>>> 2865221d54eb4c43fde54ceb7bef70c2d69474b2
+
+
+
 
 
 
